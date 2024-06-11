@@ -15,7 +15,6 @@ main {
 }
 
 main h1 {
-  font-size: 50px;
   font-family: "Pacifico", cursive;
   color: #352e28;
   isolation: isolate;
@@ -45,7 +44,6 @@ main h1:hover::before {
 
 .bookmark-body h2 {
   font-family: "Righteous", cursive;
-  font-size: 25px;
   background-image: linear-gradient(to right, #3ca55c, #b5ac49);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -153,3 +151,110 @@ table {
   background: #d1512dd1;
   border-color: #d1512d;
 }
+
+@media screen and (min-width: 425px) {
+  .container{
+    max-width: 847px;
+}
+main h1 {
+  font-size: 6rem;
+}
+.bookmark-body h2{
+  font-size: 2.1875rem;
+} 
+.site-name label,.site-url label {
+  font-size: 1.6rem;
+}
+.form-control{
+  padding: 0.779rem .85rem;
+  font-size: 1.5rem;
+  margin-block: 21px;
+}
+button#submitBtn {
+  font-size: 1.6rem !important;
+}
+table.table {
+  font-size: 1.5rem !important;
+}
+#tableContent button {
+  font-size: 1.2rem;
+}
+.icons-name-regex, .icons-url-regex {
+  width: fit-content;
+  top: 34px;
+  font-size: 2rem;
+  right: 13px;
+}
+}
+@media screen and (min-width: 768px){
+  main h1{
+    font-size: 5rem !important;
+  }
+  
+
+}
+@media screen and (min-width: 1024px){
+  main h1 {
+    font-size: 3.125rem;
+  }  
+  .bookmark-body h2{
+    font-size: 1.5625rem;
+  } 
+  .site-name label,.site-url label {
+    font-size: 1rem;
+}
+.form-control{
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  margin:0;
+}
+button#submitBtn {
+  font-size: 1rem !important;
+}
+table.table {
+  font-size: 1rem !important;
+}
+#tableContent button {
+  font-size: 1rem !important;
+}
+.icons-name-regex, .icons-url-regex {
+  width: fit-content;
+  top: 7px;
+  font-size: 1.3rem;
+  right: 18px;
+}
+}
+
+
+
+  /* .interface .bookmark{
+    font-size: 6rem;
+  }
+  .bookmark-body+h2{
+    font-size: 2.5rem;
+  }
+  .site-name ,.site-url {
+    font-size: 1.7rem;
+  }
+  .form-control{
+    height: 4rem;
+  }
+  .btn-submit{
+    font-size: 1.5rem;
+  }
+  .table{
+    font-size: 1.5rem;
+  }
+  .table button{
+    font-size: 1.2rem;
+  }
+  .icons-name-regex, .icons-url-regex {
+    width: fit-content;
+    top: 19px;
+    font-size: 1.6rem;
+    right: 18px;
+}
+input.form-control::placeholder {
+  font-size: 1.3rem;
+} */
+
